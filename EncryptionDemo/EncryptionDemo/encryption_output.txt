@@ -1,0 +1,65 @@
+============================================================
+SYMMETRIC AND ASYMMETRIC ENCRYPTION DEMONSTRATION
+============================================================
+
+------------------------------------------------------------
+SYMMETRIC ENCRYPTION (AES-GCM)
+------------------------------------------------------------
+Original Message: Hello World! This is a secret message.
+Secret key: 91223f188a2284039bdeec1d1e4cb6d5a9780ca00c3cd5e59b9e45ee97304c67
+Encrypted Message: 4a9ac714dd0897b657fff9e58d50483d694b3c9e5d4758d8326daf90c65a9277c4882cb4b558a78355a49a8b76980b3e545a0e87214e
+Decrypted Message: Hello World! This is a secret message.
+Decryption Successful: True
+
+------------------------------------------------------------
+ASYMMETRIC ENCRYPTION (RSA)
+------------------------------------------------------------
+Public Key:
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjAET8FndtBox/H+LPuQM
+NDPdLn1WR5jw4Jy7Qw4XhoahK32ZfHQyFhXpqEA0Qgd64988ti2aMgi5dv5WvIRV
+ElEfsTPAERXX3uzkS/RpHHVv/e+JO89LgEIIZZ43Xl8MzbOMrim44dIIPPvhpIxR
+cCUxbrko7ju9y7s0JJhmeee86+IhHduyRuyUjYlNbnLHTW20vJHoX0wbqxoZew9f
+gvtf9/Im5EO1pv2HpJWBYeMAIIHZktuIeGTh1ASsxTGZmCo9HvYc1eMMrrxtQzkB
+lJ3HwlnYUn0h/YdbElrjwpNHIpO1dbD8mmPofzV0GyNEmYVa00v2KHAcRufZeP8o
+BwIDAQAB
+-----END PUBLIC KEY-----
+
+Private Key:
+-----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCMARPwWd20GjH8
+f4s+5Aw0M90ufVZHmPDgnLtDDheGhqErfZl8dDIWFemoQDRCB3rj3zy2LZoyCLl2
+/la8hFUSUR+xM8ARFdfe7ORL9GkcdW/974k7z0uAQghlnjdeXwzNs4yuKbjh0gg8
+++GkjFFwJTFuuSjuO73LuzQkmGZ557zr4iEd27JG7JSNiU1ucsdNbbS8kehfTBur
+Ghl7D1+C+1/38ibkQ7Wm/YeklYFh4wAggdmS24h4ZOHUBKzFMZmYKj0e9hzV4wyu
+vG1DOQGUncfCWdhSfSH9h1sSWuPCk0cik7V1sPyaY+h/NXQbI0SZhVrTS/YocBxG
+59l4/ygHAgMBAAECggEAGfwDOts7AjfQajgz3F7QAwpTNVMu5cf1gQKl4NqnNCEd
+nahIieg4+Y9kmAUejdi8jrl6l6dcFIg4/+RRrdhzv5wN4UIlFiazM51M++nnblA/
+kmZYVqDxNuNKkq2sQhgrFKyL4jE9LrBgNg1bwkIGxWUpyQ6Vka3F2p+qnFYqwtoh
+EG5dz4U0Q9uXKbfo/qs6giKCGNfc/qCzCVOTTi0I6VxoYcXhlLW1FzJa32wBs4Vh
+18issXfL+TjHwLHrrNCcTKfpDqNO/l6ejqd65f3XlT4tldC+xR5l8LdkvjIcJ3hs
+osdH7JIf4/reQsl+b4+vKqRfQMGh+5g/zrsSWfY2GQKBgQDDCJ8V+dAnZV2QdAlH
+Wc599fY+n9HcN9pa5hkDWAbNM1u7Aa+Hbj+gjD/zeG3jX3pohbRszCFeoqVR+kpn
+cVQnIqQMQl6sioakQlpKqjoZrh5OntXx7pOaYl9AH8n7FGxIbjKwPlU4dN1YSTT5
+tXky5fMU993tZe8NseOdvHtVWQKBgQC3xMcCzwmkbinQKSLbSpGir++Bk0ZZXRaF
+7u0569ea1ks+FR6YH9Wtz1TxvV49sx/WSdX9yL91Nn551hfrly/fpKHs/vlVgkTj
+0E0ZFc6vxHMZ91zzlC3TGQTHib8mwWXTxp4akjR5GlLLUSWGonG+ZGoWLxekvd52
+td9ugrLcXwKBgHurutz/hKuGjlbsDXouC086KUQ6qaNf01kycQf6yI1UFMW3YuuY
+0EXoySCE7AFy6LbgmbEnm71bm0MpWAbSCQ+r2qRfbZMxYAFGheS0npTsIRGvjHCV
+3QjXehi6T6SjpaokHoY9cGKVUEoMWchB97F7uLFCH3rK2VQwyemavAY5AoGAAxnt
+Cd0Ymo/JYNvw3KaLgqVZc2Ra4ZMymBwKINocD17ici/FDmgrIP3IvzOk7YGiXelt
+FRVYNdAvnjrAuJcalbmfifJbntfN9dJEGtJFZK36C0wjY3DyvQdFD2EButO0tjg5
+3tTs0cZh81BxQ65mIQJsz+cHjR4vLO2w0ZqfDh0CgYAWg834DNCQetk/+4BoNfsQ
+D+7s25FADLAGnPCLGXwnGSsZ29AvPE5kNTRPTesstubuG7ICS8skOA7L9cOka30R
+5pxroGyGnOJlfB/j5y4z9b9Np31XQJCXrPaIhEx9DnCu6oGXQt7+0v0kg+/ENeFr
+KQlurSsQyserppAmiSYAxA==
+-----END PRIVATE KEY-----
+
+Original Message: Hello World! This is a secret message.
+Encrypted Message (RSA): 385e8f20933e7befdff9dae7f0fdf058a2635ea21afb20525c889cc7bbe783cf78cd7df43686f92101081789561a4d23aa979f281f0630bea7de7ad1c59356b4339fe73ac84b76cba31846065f7b9628f770d92b3daf19f1469ee3d4227a9ec5714e48955697e815ad61f2061903709437d80e9ba97b540993fdcfdfce18c049dd5160580aa049c22019777ce09b7fa9c5ae91798a0a713ff2c8ba79bfbd1e67d90ca220b056771c82a78ac02aec2e5503a09c6cb803e925d06088279c5a693518efdbeab8be129b3577c572961be3c3e5ba9d49fa1eba9f88b4ce816391fa240b94a1b8ec6a6bd5504f4df6aebc7d89d82af2d5ebb20b2dd4703f9426706096
+Decrypted Message (RSA): Hello World! This is a secret message.
+Decryption Successful: True
+
+============================================================
+ENCRYPTION DEMONSTRATION COMPLETED
+============================================================

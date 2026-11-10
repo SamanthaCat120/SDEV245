@@ -5,7 +5,7 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives import serialization
 
 # Display secret keys for educational demonstration
-SHOW_KEYS = True
+SHOW_KEYS = False
 
 print("=" * 60)
 print("SYMMETRIC AND ASYMMETRIC ENCRYPTION DEMONSTRATION")
