@@ -14,7 +14,7 @@ def hash_file(file_path):
             file_hash.update(chunk)
     return file_hash.hexdigest()
 
-file_path = input("Enter the path of the file to hash: ")
+file_path = input("\nEnter the path of the file to hash: ")
 
 if file_path:
     try:
