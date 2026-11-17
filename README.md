@@ -12,3 +12,5 @@ algorithm works.
 AES-GCM uses a single secret key for both the encryption and decryption processes. RSA uses a public key to encrypt the message and a private key to decrypt it. It also verifies the decrypted message matches the original message. For educational purposes,
 the program can display the encryption keys when SHOW_KEYS is set to True.
 AES is faster and can handle large amounts of data, whereas RSA is slower, and meant to handle smaller amounts of data. The RSA encryption solves the problem of needing to share a single secret key.
+
+The third project consists of three Python files: one demonstrates SHA-256 hashing of text and files, another demonstrates encryption and decryption using a simple Caesar cipher, and the third demonstrates creating and verifying digital signatures using RSA.
