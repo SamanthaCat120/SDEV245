@@ -5,7 +5,7 @@
     <ProjectGuid>8667b40c-80f9-417a-9efa-873db130ec93</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>sha256_hash.py</StartupFile>
+    <StartupFile>caesar_cipher.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="caesar_cipher.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sha256_hash.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
