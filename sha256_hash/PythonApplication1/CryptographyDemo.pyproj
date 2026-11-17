@@ -5,7 +5,7 @@
     <ProjectGuid>8667b40c-80f9-417a-9efa-873db130ec93</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>caesar_cipher.py</StartupFile>
+    <StartupFile>digital_signature.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="caesar_cipher.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="digital_signature.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sha256_hash.py" />
